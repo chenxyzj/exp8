@@ -8,7 +8,7 @@
  */
 const express = require("express");
 const app = express();
-const PORT = 8000;
+const PORT = 80;
 
 app.all('*', function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*')
