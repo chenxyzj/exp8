@@ -104,3 +104,6 @@ app.delete('/api/sensors/:id', (req, res) => {
 
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
+
+// Export the Express API
+module.exports = app;
